@@ -1,0 +1,30 @@
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.items{
+    background-color: aliceblue;
+    width: 275px;
+    min-width: 275px;
+    height: 30px;
+    min-height: 30px;
+    margin: 25px;
+    padding: 19px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.items svg{
+    font-size: 28px;
+    cursor: pointer;
+    color: black;
+}
+.container svg:hover{
+    color: red;
+}
+.container p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(104, 39, 39);
+}

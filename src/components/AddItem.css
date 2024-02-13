@@ -1,0 +1,25 @@
+.form input{
+    height: 50px;
+    width: 220px;
+    border-radius: 3px;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    border: none;
+}
+.form button{
+    position: relative;
+    top: 16px;
+    background-color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+.form svg{
+    height: 46px;
+    min-height: 46px;
+    width: 50px;
+    min-width: 46px;
+}
+.form svg:hover{
+    background-color: green;
+    color: aliceblue;
+}
